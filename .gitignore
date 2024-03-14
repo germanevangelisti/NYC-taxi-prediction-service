@@ -1,1 +1,3 @@
 .env
+
+ec2-docker-key.pem
