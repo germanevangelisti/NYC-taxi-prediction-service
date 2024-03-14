@@ -19,11 +19,21 @@ This service provides functionalities to interact with models and data stored in
 ## Installation
 
 1.  Clone the repository:
+
 `git clone https://github.com/yourusername/NYC-taxi-prediction-service.git
 cd NYC-taxi-prediction-service` 
 
 2.  Install the dependencies:
+
 `pip install -r requirements.txt`
+
+## Docker
+
+1. build docker image
+`docker build -t nyc-taxi-prediction-service:latest -f Dockerfile .`
+
+2. run docker container
+`docker run -d -p 80:80 nyc-taxi-prediction-service:latest`
 
 ## Usage
 
