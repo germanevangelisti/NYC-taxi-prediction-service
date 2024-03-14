@@ -18,32 +18,33 @@ This service provides functionalities to interact with models and data stored in
 
 ## Installation
 
-1.  Clone the repository:
+Clone the repository:
 
 `git clone https://github.com/yourusername/NYC-taxi-prediction-service.git
 cd NYC-taxi-prediction-service` 
 
-2.  Install the dependencies:
+## Usage
+
+# Locally
+
+
+1.  Install the dependencies:
 
 `pip install -r requirements.txt`
 
-## Docker
+2.  Start the FastAPI server:
+
+`uvicorn main:app --reload` 
+
+3.  Access the interactive API documentation at `http://127.0.0.1:80/docs` to explore available endpoints and make requests.
+
+# with Docker
 
 1. build docker image
 `docker build -t nyc-taxi-prediction-service:latest -f Dockerfile .`
 
 2. run docker container
 `docker run -d -p 80:80 nyc-taxi-prediction-service:latest`
-
-## Usage
-
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
-
-1.  Start the FastAPI server:
-
-`uvicorn main:app --reload` 
-
-2.  Access the interactive API documentation at `http://127.0.0.1:80/docs` to explore available endpoints and make requests.
 
 ## Endpoints
 
