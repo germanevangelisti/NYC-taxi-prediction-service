@@ -1,3 +1,5 @@
 .env
 
 ec2-docker-key.pem
+
+**/credentials.json
