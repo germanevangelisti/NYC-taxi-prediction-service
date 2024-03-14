@@ -25,7 +25,7 @@ cd NYC-taxi-prediction-service`
 
 ## Usage
 
-# Locally
+### Locally
 
 
 1.  Install the dependencies:
@@ -38,7 +38,7 @@ cd NYC-taxi-prediction-service`
 
 3.  Access the interactive API documentation at `http://127.0.0.1:80/docs` to explore available endpoints and make requests.
 
-# with Docker
+### with Docker
 
 1. build docker image
 `docker build -t nyc-taxi-prediction-service:latest -f Dockerfile .`
