@@ -1,5 +1,1 @@
 .env
-
-ec2-docker-key.pem
-
-app/utils/credentials.json
