@@ -40,11 +40,28 @@ cd NYC-taxi-prediction-service`
 
 ### with Docker
 
-1. build docker image
-`docker build -t nyc-taxi-prediction-service:latest -f Dockerfile .`
+using docker compose
+```bash
+$ docker-compose up --build -d
+```
 
-2. run docker container
-`docker run -d -p 80:80 nyc-taxi-prediction-service:latest`
+To stop the services:
+
+```bash
+$ docker-compose down
+```
+
+
+Build docker image
+
+```bash
+$ docker build -t nyc-taxi-prediction-service:latest -f Dockerfile .
+```
+Run docker container
+
+```bash
+$ docker run -d -p 80:80 nyc-taxi-prediction-service:latest
+```
 
 ## Endpoints
 
